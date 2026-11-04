@@ -49,7 +49,7 @@ linkedin-tests/
 1. **Install** JDK 17+, Maven, and Google Chrome.
 2. **Clone** the repository:
    ```bash
-   git clone <https://github.com/DSewmini/LinkedInAutomation.git
+   git clone <https://github.com/DSewmini/LinkedInAutomation.git>
    cd linkedin-tests
    ```
 3. **Configure credentials.** 
@@ -59,7 +59,7 @@ linkedin-tests/
    ```properties
    linkedin.username=YOUR_LINKEDIN_EMAIL
    linkedin.password=YOUR_LINKEDIN_PASSWORD
-   search.term=Satya Nadella
+   search.term=SEARCH_ACC_USERNAME
    ```
    `config.properties` is listed in `.gitignore` – **never commit real credentials.**
 
